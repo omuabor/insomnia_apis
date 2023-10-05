@@ -1,0 +1,39 @@
+_id: req_0877ec8dad1a4b89b58c57deee007b88
+type: Request
+parentId: fld_c2b3fcdf802248eba98b6d613b6f2615
+modified: 1695212191675
+created: 1692374576818
+url: https://uatlb.stanbicibtc.com/integration-channel/authentication-service/api/v1/user/registration
+name: User Token Registration
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |
+    {
+        "channelId": "2",
+        "acctNum": "9200203924",
+        "userName": "Gbenga",
+        "userAccessLevel": "5"
+    }
+parameters: []
+headers:
+  - name: serviceToken
+    value: 4251FDFABB5BB2ECE76282FD53E2945A79E3E6F16B9DB948C794A019EF49D997B09F3082B4E43B08D58A0D998CBDCFD615B4DF315BFFDEFBF2AE
+    id: pair_829c5478cd8446a08431862bd3d44af8
+  - name: requestSourceIp
+    value: 192.108.120.121
+    id: pair_25c5f461a72d4cf8bcbcc3585a6b991b
+  - id: pair_38a11efa5ae04063bff4e6de12b660ab
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1692374576818
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

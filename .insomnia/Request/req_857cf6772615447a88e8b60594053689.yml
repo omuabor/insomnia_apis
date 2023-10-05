@@ -1,0 +1,46 @@
+_id: req_857cf6772615447a88e8b60594053689
+type: Request
+parentId: fld_c2b3fcdf802248eba98b6d613b6f2615
+modified: 1694449107307
+created: 1692374576826
+url: https://uatlb.stanbicibtc.com/integration-channel/authentication-service/api/v1/user/authentication
+name: User Token Validation
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: >-
+    {
+        "userToken": "4153E091CE32AEEEE66582B75BE596533184BAB22988E2538FC2DA56B2179ED3ABB047E3D294497C98889F2C60CC5C422AC85B9870BDC2125476F7D413E4E64A66B2",
+        "acctNum": "9200203924",
+        "channelId": "4",
+        "userName": "Gbenga",
+        "serviceToken": "4251FDFABB5BB2ECE76282FD53E2945A79E3E6F16B9DB948C794A019EF49D997B09F3082B4E43B08D58A0D998CBDCFD615B4DF315BFFDEFBF2AE",
+     "serviceIpAddress": "192.190.111.99"
+    }
+parameters: []
+headers:
+  - name: serviceToken
+    value: "[8:40 AM] Ike, Emmanuela
+      C4251FDFABB5BB2ECE76282FD53E2945A79E3E6F16B9DB948C794A019EF49D997B09F3082\
+      B4E43B08D58A0D998CBDCFD615B4DF315BFFDEFBF2AE"
+    id: pair_8c8b25ff525248a08969576d80f94c36
+    disabled: true
+  - name: requestSourceIp
+    value: 192.108.120.121
+    id: pair_5798679c1bcf40a9a2d734986937feae
+    disabled: true
+  - id: pair_1f55f4dec3594874966e4eafc002babb
+    name: Content-Type
+    value: application/json
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1692374576826
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

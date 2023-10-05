@@ -1,0 +1,10 @@
+_id: fld_4ce7ceb62776450d8f8745c05da6823d
+type: RequestGroup
+parentId: wrk_1805ee06f7744d4e808802a1ff11aeb8
+modified: 1678705787969
+created: 1678705787969
+name: Collection notification
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1678705787969

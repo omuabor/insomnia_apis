@@ -1,0 +1,37 @@
+_id: req_4cff3591c69b48d0b40d8a14ea0f58d3
+type: Request
+parentId: wrk_1805ee06f7744d4e808802a1ff11aeb8
+modified: 1678456510607
+created: 1678454882937
+url: https://developer.stanbicibtc.com:8443/uat/redbox/services/request-manager
+name: OTP
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: <soapenv:Envelope
+    xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:soap="http://soap.request.manager.redbox.stanbic.com/"><soapenv:Header/><soapenv:Body><soap:request><channel>MOBILE_APP</channel><type>OTP_REQUEST</type><customerId>101201066</customerId><customerIdType>CIF_ID</customerIdType><reqTranId>1ec592cf9e4467bbd67506b81fa</reqTranId><body>creating
+    PIN</body></soap:request></soapenv:Body></soapenv:Envelope>
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/xml
+    id: pair_4e2e5d33f7cc4ebf86d3a1449f12dcd9
+  - id: pair_454eaf35dd1b43e383b117afae8d89d3
+    name: module_id
+    value: QTIzMzU5Mzow=
+    description: ""
+  - id: pair_b69c28dd87b34918a514c523f9fbca44
+    name: Authorization
+    value: basic cmJ4RGV2ZWxvcGVyMjpyYjVkM3YzbDBwM3I=
+    description: ""
+authentication: {}
+metaSortKey: -1678454882937
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

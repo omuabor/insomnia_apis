@@ -1,0 +1,53 @@
+_id: req_886722bd4ace4f3a8b701a0855920cef
+type: Request
+parentId: wrk_1805ee06f7744d4e808802a1ff11aeb8
+modified: 1670486246681
+created: 1670485857622
+url: https://pngcorredbox.ng.sbicdirectory.com:8761/png/sb/redbox/services/clickatell/enquiries/validate-telco
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "sourceTransactionRef" : "221126074336933f0556f1753704ef",
+      "sourceChannelCode" : "RBX",
+      "sourceEntityCode" : "304",
+      "sourceAccountNumber" : "9200203924",
+      "recipientMobileNumber" : "07032219271",
+      "recipientNetworkOperatorCode" : "20",
+      "productCode" : "30",
+      "airtimeAmount" : 200.0,
+      "isDataOrAirtime" : "AIRTIME",
+      "currencyCode" : "NGN",
+      "countryCode" : "234",
+      "transactionTime" : "2022-11-29T07:23:28.607",
+      "reconsTransactionId" : "272718160709161864",
+      "finacleResponse" : {
+        "tranId" : "000330333",
+        "status" : "SUCCESS"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e91d5e14e4244fefa10231702afb3717
+  - id: pair_8c4eb8374a63411683661e6a1310b3e4
+    name: Authorization
+    value: basic cmJ4RGV2ZWxvcGVyMjpyYjVkM3YzbDBwM3I=
+    description: ""
+  - id: pair_027a7bbfa1be4be8972987769c7566e3
+    name: module_id
+    value: QTIzMzU5Mzow=
+    description: ""
+authentication: {}
+metaSortKey: -1670485857623
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

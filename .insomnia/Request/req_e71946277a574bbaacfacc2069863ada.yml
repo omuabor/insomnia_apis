@@ -1,0 +1,23 @@
+_id: req_e71946277a574bbaacfacc2069863ada
+type: Request
+parentId: wrk_1805ee06f7744d4e808802a1ff11aeb8
+modified: 1695896098828
+created: 1695896096953
+url: https://rubyvaultwallet.azurewebsites.net/api/AccountManagement/EnquireAccountName
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695896096953
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

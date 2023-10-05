@@ -1,0 +1,32 @@
+_id: req_9de781da5bbf473e93e60c16a5c39ec1
+type: Request
+parentId: fld_aba981ad8e2e414298d22389a0f47788
+modified: 1696502956052
+created: 1696498938933
+url: http://localhost:8209/uat/sb/redbox/services/revpay/agencyCode
+name: Get Agency Code Local
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {"purposeCode":"GetAgencyCode",
+    "payerId":"C-58570",
+    "billerId":"REVPAY",
+    "otherRequestDetails":{"state":"XXSG","clientid":"66924372163039"}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695726989388.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

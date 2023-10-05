@@ -1,0 +1,35 @@
+_id: req_e80c99bd351842af91093308358c395d
+type: Request
+parentId: fld_4ce7ceb62776450d8f8745c05da6823d
+modified: 1679560454423
+created: 1678872890202
+url: https://apiv1.custodianplc.com.ng/api/webhooks/direct-debit-mandate
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    
+    {
+      "tran_date" : "2023-MAR-21",
+      "tran_amt" : "1130",
+      "subscriber_mandate_code" : "220800080079",
+      "tran_particular" : "220800080079_RC682763_RC682763/1389/0000391324",
+      "paid_by" : "DAINI ADEDAYO AYODEJI",
+      "tran_rmks" : "999999210114154287364299329114",
+      "sent_date" : "2023-02-14T19:59:09.025Z"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1678872890202
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

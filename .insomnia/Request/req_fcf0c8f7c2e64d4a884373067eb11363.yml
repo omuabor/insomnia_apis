@@ -1,0 +1,37 @@
+_id: req_fcf0c8f7c2e64d4a884373067eb11363
+type: Request
+parentId: fld_90b2aca1ead14777ab2aa5cdd1ba0d71
+modified: 1694683000909
+created: 1694682537667
+url: http://localhost:8222/png/sb/redbox/services/airtelsmartcash/customerenquirycashin
+name: Customer Enquiry for CashIn Local
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"billerId":"AIRTEL_SMARTCASH","purposeCode":"VALIDATION","paymentDate":"2023-09-13T15:31:46.883","payerId":"708457118"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_705792c1558b4d0ea85e08cdbb223d54
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_1c7d95f6efa14ac389a023b1d412242e
+  - id: pair_301c4c7a95684c8ba2ef1a87e6f110a7
+    name: Module_Id
+    value: YnBtc3J2OjA=
+    description: ""
+  - id: pair_2d4104df0b5b46f486e2f054b9751ac5
+    name: Authorixation
+    value: basic YXBwRGV2ZWxvcGVyOkBwcERlVkA0Iw
+    description: ""
+authentication: {}
+metaSortKey: -1694681345507
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

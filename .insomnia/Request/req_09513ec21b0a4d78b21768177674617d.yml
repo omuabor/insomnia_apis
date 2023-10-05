@@ -1,0 +1,38 @@
+_id: req_09513ec21b0a4d78b21768177674617d
+type: Request
+parentId: fld_65959887e4ac471289318acde09893c7
+modified: 1695050195481
+created: 1695035439543
+url: https://www.gtpsecurecard.com/GTPServices/PartnerAPIWebService.svc
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: <ns4:Envelope xmlns:ns4="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ns3="http://gtplimited.com/"><ns4:Header><ns3:RequestHeader><ns3:SecurityToken>stanmctoken</ns3:SecurityToken><ns3:RequestID>202</ns3:RequestID></ns3:RequestHeader></ns4:Header><ns4:Body><ns3:BaseRequest><ns3:RequestData
+    xmlns="http://gtplimited.com/"
+    xsi:type="CustomerDataRequest"><CustomerID>0015882336</CustomerID></ns3:RequestData></ns3:BaseRequest></ns4:Body></ns4:Envelope>
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/xml;charset=UTF-8
+    id: pair_16dd4e680c274e26bce36c55fcd97b47
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_6a9a54733d1a43218312612be175fee9
+    disabled: true
+  - id: pair_3040ab84666e4089bdaf0165d71b0f80
+    name: SOAPAction
+    value: http://gtplimited.com/IBaseAction/Submit
+    description: ""
+authentication: {}
+metaSortKey: -1695035439543
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

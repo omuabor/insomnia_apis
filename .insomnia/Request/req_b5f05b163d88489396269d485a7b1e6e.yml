@@ -1,0 +1,67 @@
+_id: req_b5f05b163d88489396269d485a7b1e6e
+type: Request
+parentId: wrk_1805ee06f7744d4e808802a1ff11aeb8
+modified: 1680161257621
+created: 1680161257621
+url: https://accounts.payd.co/auth/realms/Prod-API/protocol/openid-connect/token
+name: clickatell-uat get token
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_a7210f6ad5434a61afa370efa87ae809
+      name: client_secret
+      value: 874832bf-ce62-4e1c-a15a-82c11d359d29
+      description: ""
+    - id: pair_2f9b2bf6acec452f97e6ebb75a1cbfae
+      name: grant_type
+      value: client_credentials
+      description: ""
+    - id: pair_0706fc98e431456685ad4ebaa7834eb7
+      name: client_id
+      value: "109"
+      description: ""
+parameters:
+  - id: pair_ce75740144da475b96b61aba0e923f4a
+    name: client_secret
+    value: 874832bf-ce62-4e1c-a15a-82c11d359d29
+    description: ""
+    disabled: true
+  - id: pair_429a098e4ec74e93ab3aec744b8c5ee8
+    name: grant_type
+    value: client_credentials
+    description: ""
+    disabled: true
+  - id: pair_5f42ed9e1ae9437391955b95cfe80793
+    name: client_id
+    value: "109"
+    description: ""
+    disabled: true
+headers:
+  - id: pair_43329b3e1130416ea23fb8b39c4951a7
+    name: client_secret
+    value: 874832bf-ce62-4e1c-a15a-82c11d359d29
+    description: ""
+    disabled: true
+  - id: pair_d2c8cd7332944e858486bce304d4221e
+    name: grant_type
+    value: client_credentials
+    description: ""
+    disabled: true
+  - id: pair_7725b611e57547c8980bd1671b673b21
+    name: client_id
+    value: "109"
+    description: ""
+    disabled: true
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication: {}
+metaSortKey: -1674612352204
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

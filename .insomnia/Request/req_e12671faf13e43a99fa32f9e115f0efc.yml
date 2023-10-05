@@ -1,0 +1,64 @@
+_id: req_e12671faf13e43a99fa32f9e115f0efc
+type: Request
+parentId: fld_4ce7ceb62776450d8f8745c05da6823d
+modified: 1690208169875
+created: 1689956108416
+url: http://10.234.206.84:6443/redbox/services/collection-service-extended
+name: Airtel SmartCash Customer Validation
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: >-
+    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:soap="http://soap.collection.redbox.stanbic.com/">
+        <soapenv:Header/>
+        <soapenv:Body>
+            <soap:paydetails xmlns:soap="http://soap.collection.redbox.stanbic.com/">
+       <PaymentID>2002202344</PaymentID>
+       <PurposeCode>customerSearch</PurposeCode>
+       <Amount/>
+       <PaymentDate>2021-07-28</PaymentDate>
+       <PayeeID>7084547118</PayeeID>
+       <Fullname/>
+       <Email/>
+       <PhoneNumber/>
+       <DebitAcc/>
+       <CreditAcc/>
+       <Commission/>
+       <CommissionAcc/>
+       <BranchCode>000001</BranchCode>
+       <InstitutionID>AIRTEL_SMART-CASH</InstitutionID>
+       <Narration/>
+       <CurrencyCode/>
+       <OtherDetails><![CDATA[<OtherRequestDetails> </OtherRequestDetails>]]></OtherDetails>
+    </soap:paydetails>
+            </soapenv:Body>
+        </soapenv:Envelope>
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/xml
+    id: pair_3b3c5225d4de432cade2c4118388aa4d
+  - id: pair_0c9aefcad84242658b1b5d04de940815
+    name: Module_id
+    value: QTIzMzU5Mzow=
+    description: ""
+  - id: pair_22563ee29d8f4b209a2a060002abaf6f
+    name: Authorization
+    value: basic cmJ4RGV2ZWxvcGVyMjpyYjVkM3YzbDBwM3I=
+    description: ""
+  - id: pair_ff1ef7f68f684c2d88421e7dad211492
+    name: soap-action
+    value: '"customerSearch"'
+    description: ""
+    disabled: true
+authentication: {}
+metaSortKey: -1689956108416
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

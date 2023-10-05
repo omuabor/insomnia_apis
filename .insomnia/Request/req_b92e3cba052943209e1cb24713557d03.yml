@@ -1,0 +1,35 @@
+_id: req_b92e3cba052943209e1cb24713557d03
+type: Request
+parentId: fld_65959887e4ac471289318acde09893c7
+modified: 1695036505546
+created: 1694442893479
+url: http://localhost:8469/api/v1/stanbic/redbox/prepaidcard/getcustomerdata
+name: Get Customer Data
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {"purposeCode":"GetCustomerData",
+    "payerId":"C-58570",
+    "billerId":"PREPAID_CARD",
+    "otherRequestDetails":{"customerId":"1234567","cardType": 1}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_85dc20a85ca640608747314cf6320ecd
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_8dde94fc5f6544b58e5bbb31dfecacb6
+    disabled: true
+authentication: {}
+metaSortKey: -1694442893479
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

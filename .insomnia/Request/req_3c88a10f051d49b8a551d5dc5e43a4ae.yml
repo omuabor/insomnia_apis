@@ -1,0 +1,50 @@
+_id: req_3c88a10f051d49b8a551d5dc5e43a4ae
+type: Request
+parentId: fld_4ce7ceb62776450d8f8745c05da6823d
+modified: 1690444663895
+created: 1690444647048
+url: http://localhost:8954/uat/sb/redbox/services/rubywallet
+name: Ruby wallet Name Enquiry Modified URL
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "transactionId": "00024567890987654598",
+        "billerId": "RUBBY_WALLET",
+        "purposeCode": "VALIDATION",
+        "principalAmount": "100",
+        "principalNarration": "biller-payment",
+        "payerId": "2348183268430",
+        "fullName": "Dinneya Charles",
+        "phoneNumber": "08081352702",
+        "email": "dinneyacharles007@gmaill.com",
+        "branchCode": "CBA",
+        "currencyCode": "NG",
+        "productName": "DSTV",
+        "authCode": "string",
+        "channelId": "string",
+        "channelName": "string",
+        "baseCBA": "string",
+        "channelType": "string",
+        "otherRequestDetails": {
+            "accountNumber": "2348183268430",
+            "accountType": "WALLET",
+            "sessionId": "98762",
+            "requestId": "70"
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1690082147263.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

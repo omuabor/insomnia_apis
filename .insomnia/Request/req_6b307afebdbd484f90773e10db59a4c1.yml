@@ -1,0 +1,38 @@
+_id: req_6b307afebdbd484f90773e10db59a4c1
+type: Request
+parentId: fld_aba981ad8e2e414298d22389a0f47788
+modified: 1695913472335
+created: 1695912437438
+url: https://appsgw.stanbicibtc.com:4443/uat/sb/redbox/services/collection-extended/validateCollection
+name: DryPosting from ColExtended
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"transactionId":"65155c521a30f2594706b047","billerId":"REV_PAY","purposeCode":"DoDryPosting","principalAmount":"100","principalNarration":"REVPAY/DRYPOSTING/585701-9838944-339","payerId":"C-58570","fullName":"","phoneNumber":"","email":"","branchCode":"000175","currencyCode":"NG","productName":"REVPAY","authCode":"","channelId":"","channelName":"","baseCBA":"","channelType":"","otherRequestDetails":{"webguid":"585701-9838944-339","amountpaid":"100","paymentref":"REVPAY02072021","creditaccount":"9200158880","date":"2023-00-28","paymentChannel":"StanbicIBTC
+    Banking","tellerName":"A169448","bankNote":"REVPAY02072021","state":"XXSG","clientid":"669243721639039","phoneNumber":null,"tellerID":"58570","branchCode":"000175"}}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1767fdd1889b48308e0be53f5e0efd9d
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_9373d6dd569a4bb499491940e66492e9
+  - id: pair_1ea4de37d8a74dfba39bd90bd75d6224
+    name: module_id
+    value: QTIzMzU5Mzow=
+    description: ""
+  - id: pair_355d4bd6e5864595b5bea999d3dce2ab
+    name: Authorization
+    value: basic cmJ4RGV2ZWxvcGVyMjpyYbaahiv
+    description: ""
+authentication: {}
+metaSortKey: -1695912437438
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

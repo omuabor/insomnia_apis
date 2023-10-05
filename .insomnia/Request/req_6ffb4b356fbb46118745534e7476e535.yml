@@ -1,0 +1,37 @@
+_id: req_6ffb4b356fbb46118745534e7476e535
+type: Request
+parentId: fld_65959887e4ac471289318acde09893c7
+modified: 1694680859547
+created: 1694680518627
+url: https://pngcorredbox.ng.sbicdirectory.com:8443/png/redbox/services/prepaidcard/getcustomerdata
+name: Get Customer Data from Collection
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"billerId":"Prepaid_Card","purposeCode":"VALIDATION","paymentDate":"2023-09-13T15:22:39.119","payerId":"0015882336","otherRequestDetails":{"customerId":"0015882336","cardType":0,"startDate":null,"endDate":null,"maxNumberOfTransactions":null}}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_085fe8a6207b49d7a096d5c2fdeee88a
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_274f2b7a1bec4585a471097559506644
+  - id: pair_0087bafb16764c8d871d758273cef6f1
+    name: Module_Id
+    value: YnBtc3J2OjA=
+    description: ""
+  - id: pair_cddbbf0cbc254a2b90f9e8ccaa9bfa03
+    name: Authorization
+    value: basic YXBwRGV2ZWxvcGVyOkBwcERlVkA0Iw
+    description: ""
+authentication: {}
+metaSortKey: -1694680518627
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

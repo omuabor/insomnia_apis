@@ -1,0 +1,25 @@
+_id: req_dfd25f5ce7504096a36199c13552fa59
+type: Request
+parentId: wrk_1805ee06f7744d4e808802a1ff11aeb8
+modified: 1680161218928
+created: 1676031861762
+url: http://176.58.99.160:9015/api/requery?requestId=23021013122627af50e39053e404
+name: clickatell-get-status
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_09de167c7cdd4e4d8f059a386cedd37c
+    name: Authorization
+    value: Bearer 1|LDEpWWEQgNuSU5unm6yJ8T0UbCt3sma84ePAAFEO
+    description: ""
+authentication: {}
+metaSortKey: -1676031861762
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

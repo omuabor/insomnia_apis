@@ -1,0 +1,38 @@
+_id: req_acc5cd8531be49f4ab438509a8b69e85
+type: Request
+parentId: wrk_1805ee06f7744d4e808802a1ff11aeb8
+modified: 1674745182242
+created: 1674745074248
+url: https://192.234.10.46:7003/get-nibss
+name: nibss-endpoint2
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "amount" : 100,
+        "serviceId" : "A04E",
+        "recipient" : "09132058219",
+        "requestId" : "123456789101"
+    }
+parameters: []
+headers:
+  - id: pair_10b00957c8e4449d8d40bfcc9a48a6f5
+    name: Content-Type
+    value: application/json
+    disabled: true
+  - description: ""
+    id: pair_4a10cd2600d147ecba7568d67d99bbce
+    name: Authorization
+    value: bearer  1|LDEpWWEQgNuSU5unm6yJ8T0UbCt3sma84ePAAFEO
+    disabled: true
+authentication: {}
+metaSortKey: -1669976611393
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

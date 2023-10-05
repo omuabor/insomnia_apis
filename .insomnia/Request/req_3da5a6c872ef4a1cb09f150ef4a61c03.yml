@@ -1,0 +1,40 @@
+_id: req_3da5a6c872ef4a1cb09f150ef4a61c03
+type: Request
+parentId: fld_aba981ad8e2e414298d22389a0f47788
+modified: 1695909233565
+created: 1694770941773
+url: http://localhost:8209/uat/sb/redbox/services/revpay/makepayment
+name: Make Payment
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {"purposeCode":"makePayment",
+
+    "payerId":"35459150-8324377-144",
+
+    "billerId":"REVPAY",
+
+    "transactionId":"435678i9op670989",
+
+    "pricipalAmount":"300",
+
+    "otherRequestDetails":{"webguid":"35459150-8324377-144","amountpaid":"300","paymentref":"58757833","creditaccount":"0015579848","date":"13/Mar/2023","paymentChannel":"StanbicIBTC  Banking","tellerName":"000160-0021269236","bankNote":"58757833","state":"XXSG","clientid":"669243721639039", "phoneNumber": "2349021806462"}
+
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694770941773
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

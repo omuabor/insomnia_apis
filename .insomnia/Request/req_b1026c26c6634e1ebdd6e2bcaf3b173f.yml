@@ -1,0 +1,30 @@
+_id: req_b1026c26c6634e1ebdd6e2bcaf3b173f
+type: Request
+parentId: wrk_1805ee06f7744d4e808802a1ff11aeb8
+modified: 1673280769854
+created: 1673278082640
+url: http://176.58.99.160:9015/api/requery?requestId=2301051315721ce6aa5840e00407
+name: credit-switch-transaction-status
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_af4b53446c4f4f2f88899643a7d10b67
+    name: Authorization
+    value: Bearer 1|LDEpWWEQgNuSU5unm6yJ8T0UbCt3sma84ePAAFEO
+    description: ""
+authentication:
+  type: apikey
+  disabled: false
+  key: ""
+  value: ""
+  addTo: header
+metaSortKey: -1673278082640
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

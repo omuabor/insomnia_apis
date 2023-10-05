@@ -1,0 +1,27 @@
+_id: req_8025bf4ab359485daa0e2a51d67f3ea4
+type: Request
+parentId: wrk_1805ee06f7744d4e808802a1ff11aeb8
+modified: 1695980013139
+created: 1695979994387
+url: http://10.234.206.67:9922/uat/redbox/services/api/account-enquiry/balanceenquiry/0038816894
+name: New Request
+description: ""
+method: GET
+body:
+  text: ""
+  mimeType: ""
+parameters: []
+headers:
+  - name: Module_Id
+    value: QTIzMzU5Mzow=
+  - name: Authorization
+    value: basic cmJ4RGV2ZWxvcGVyMjpyYjVkM3YzbDBwM3I=
+authentication: {}
+metaSortKey: -1695979994388
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

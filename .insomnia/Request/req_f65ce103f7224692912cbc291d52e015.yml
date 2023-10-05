@@ -1,0 +1,36 @@
+_id: req_f65ce103f7224692912cbc291d52e015
+type: Request
+parentId: wrk_1805ee06f7744d4e808802a1ff11aeb8
+modified: 1670253874260
+created: 1669976611493
+url: http://176.58.99.160:9015/api/airtime
+name: credit-switch
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "amount" : 100,
+        "serviceId" : "A04E",
+        "recipient" : "09132058219",
+        "requestId" : "123456789101"
+    }
+parameters: []
+headers:
+  - id: pair_10b00957c8e4449d8d40bfcc9a48a6f5
+    name: Content-Type
+    value: application/json
+  - description: ""
+    id: pair_4a10cd2600d147ecba7568d67d99bbce
+    name: Authorization
+    value: bearer  1|LDEpWWEQgNuSU5unm6yJ8T0UbCt3sma84ePAAFEO
+authentication: {}
+metaSortKey: -1669976611493
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

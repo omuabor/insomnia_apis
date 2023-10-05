@@ -1,0 +1,40 @@
+_id: req_27f79be7630f4fcb9ef98ffab7bdfecf
+type: Request
+parentId: wrk_1805ee06f7744d4e808802a1ff11aeb8
+modified: 1678456568878
+created: 1678455403289
+url: https://developer.stanbicibtc.com:8443/uat/redbox/services/customer-service/pin
+name: PIN_creation_new
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: <soapenv:Envelope
+    xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:soap="http://soap.customerservice.redbox.stanbic.com/"><soapenv:Header/><soapenv:Body><soap:updateCustomerProfile><customerId>101201066</customerId><pin>848C035641413CCB0B3E4F0103FF5976BA88BDECC1AA14CA901B74B7DC4ACF173F784FC17F350878D71C09C25672F007C86E8F7CAA7FA44174FFB9E24920DD99CC254D131AA46C7700B5066C0DC49C5040742DDA8FF513E52CB13D5E2A4B3DC2A1E3E9FE50351DAAA7D7A0370FAC2D823D71B4D93126B71216D65630511EAF2FE09FD58EAE09731ACD4F9362E209C9C0027CED581C9E71448374087FB65CE04B193AD41B15AA83B5ADEF5367B10EBF84FB8FEB80E71DDB659402F28353FA213C1DF7A7B2E2766876F28251ACEFFEF5FB606D9F1B9ED2769E7DD59020799748BAF5C34512DEB8AD20D02AB9DB4C49A46E80A27E05F51187596F09E0B9BBD5B959C9A462064D50C8137B200CC3F8E1032B75F05FDEEF9AA7CDAD976BC5F5DF4DB517AD7FA60333E97229AE99E873053D012F5DA6FA47C90610E0122F4060397FEAF089123506F18ADD86C34560CD91B3374D3662;BPIN</pin><otp>39197B19796053</otp></soap:updateCustomerProfile></soapenv:Body></soapenv:Envelope>
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/xml
+    id: pair_4e2e5d33f7cc4ebf86d3a1449f12dcd9
+  - id: pair_454eaf35dd1b43e383b117afae8d89d3
+    name: module_id
+    value: QTIzMzU5Mzow=
+    description: ""
+  - id: pair_b69c28dd87b34918a514c523f9fbca44
+    name: Authorization
+    value: basic cmJ4RGV2ZWxvcGVyMjpyYjVkM3YzbDBwM3I=
+    description: ""
+  - id: pair_dc729d3518034d16807026540cb27bde
+    name: SOAPAction
+    value: '"updateCustomerProfile"'
+    description: ""
+authentication: {}
+metaSortKey: -1678356261904
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

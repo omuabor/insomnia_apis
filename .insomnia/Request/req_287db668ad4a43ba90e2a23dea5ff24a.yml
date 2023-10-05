@@ -1,0 +1,31 @@
+_id: req_287db668ad4a43ba90e2a23dea5ff24a
+type: Request
+parentId: wrk_1805ee06f7744d4e808802a1ff11aeb8
+modified: 1694698698763
+created: 1694687509046
+url: https://pngcorredbox.ng.sbicdirectory.com:8443/png/redbox/services/prepaidcard/getcustomerdata
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "{billerId:Prepaid_Card,purposeCode:VALIDATION,paymentDate:2023-09-13T15:\
+    22:39.119,payerId:0015882336,otherRequestDetails:{customerId:0015882336,car\
+    dType:0,startDate:null,endDate:null,maxNumberOfTransactions:null}}"
+parameters: []
+headers:
+  - name: Authorization
+    value: basic YXBwRGV2ZWxvcGVyOkBwcERlVkA0Iw
+  - name: Content-Type
+    value: application/json
+  - name: Module_Id
+    value: YnBtc3J2OjA=
+authentication: {}
+metaSortKey: -1694687503404.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

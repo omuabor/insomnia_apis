@@ -1,0 +1,35 @@
+_id: req_f2df7defea4543798a2ca0379aecdd67
+type: Request
+parentId: fld_aba981ad8e2e414298d22389a0f47788
+modified: 1696499259185
+created: 1694777746116
+url: http://xxsg.ebs-rcm.com/Interface/AgencyCode
+name: Get Agency Code RevPay direct
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"state":"XXSG","hash":"419ec01117a5dd8952f7e7251cea1d05cd3753b76dd890899ca338808e7289a48fd365416e0ebbb71411a076e647e897f2efd08f7ee884feda2f6aa7b266c30a","clientid":"669243721639039"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+  - id: pair_87b0ce9aa17d40aba7a48cdfd32a1a0c
+    name: ""
+    value: ""
+    description: ""
+  - id: pair_51edc532428741559614e3d3e3fdf120
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1694777746116
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

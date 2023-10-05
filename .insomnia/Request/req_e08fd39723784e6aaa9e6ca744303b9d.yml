@@ -1,0 +1,28 @@
+_id: req_e08fd39723784e6aaa9e6ca744303b9d
+type: Request
+parentId: fld_1444438ffbf34977bf9c584e12e7ad20
+modified: 1696356932309
+created: 1696356582495
+url: https://developer.buadirect.com/api/v1/foods/verify_payment
+name: VERIFY PAYMENT cement
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_4c22cf1493e1421b8c2eb5bf747be94b
+  - id: pair_3dab905fe76545269fa6b2ce6e79c435
+    name: Authorization
+    value: Bearer 574a4256decdd525d68a5b8498f1c3207dafa59fe7f8715a1b2339b0a7ac4c73
+    description: ""
+authentication: {}
+metaSortKey: -1696356582495
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

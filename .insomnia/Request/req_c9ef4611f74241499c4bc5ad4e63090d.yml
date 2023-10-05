@@ -1,0 +1,23 @@
+_id: req_c9ef4611f74241499c4bc5ad4e63090d
+type: Request
+parentId: fld_aba981ad8e2e414298d22389a0f47788
+modified: 1695727600903
+created: 1695727576896
+url: https://xxsg.ebs-rcm.com/Interface/billtype
+name: revpay billtype
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694774343944.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

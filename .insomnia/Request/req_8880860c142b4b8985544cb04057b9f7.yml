@@ -1,0 +1,41 @@
+_id: req_8880860c142b4b8985544cb04057b9f7
+type: Request
+parentId: wrk_1805ee06f7744d4e808802a1ff11aeb8
+modified: 1695654830876
+created: 1691155066281
+url: https://api.nibss-plc.com.ng/reset
+name: NIBSS token endpoint
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_d037494309fd4f51ab302dc0ec99bac7
+      name: client_id
+      value: 02f31ca3-aeb5-4199-b207-1feff02d07e2
+      description: ""
+    - id: pair_4f86d191e6e343f997f3af68a7ae10dd
+      name: scope
+      value: 02f31ca3-aeb5-4199-b207-1feff02d07e2/.default
+      description: ""
+    - id: pair_29ba650ea88b40c6bcfcec8c806b36ab
+      name: client_secret
+      value: OKE8Q~49wyRyCHrUk4CQESTDZkYZrq7OEXQudcaJ
+      description: ""
+    - id: pair_0c9412fa923447fea904dd9e90ba23fc
+      name: grant-type
+      value: client_credentials
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication: {}
+metaSortKey: -1691155066281
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

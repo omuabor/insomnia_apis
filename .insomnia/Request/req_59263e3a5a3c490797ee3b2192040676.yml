@@ -1,0 +1,25 @@
+_id: req_59263e3a5a3c490797ee3b2192040676
+type: Request
+parentId: wrk_1805ee06f7744d4e808802a1ff11aeb8
+modified: 1691163488510
+created: 1691163415771
+url: http://xxsg.ebs-rcm.com/Interface/Payment
+name: Make Harmonized Payment
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"webguid":"78207811-10110063382-124","amountpaid":"700","paymentref":"52329545","creditaccount":"0015579848","date":"04/Aug/2023","PaymentChannel":"StanbicIBTC  Banking","TellerName":"000160-9202241953","BankNote":"52329545","tellerID":"551216","hash":"a113b957f270df5cb628bf5e58e89f5ddc50fa11de9cf19f653c38cb02264d21a556d25b87e5a9bbf0b02cf282ebd1230cd3cbf57aa964541c3f11860e38849e","state":"XXSG","clientid":"669243721639039"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1691163415771
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,40 @@
+_id: req_a8323b74bf75492e89dad6512569f054
+type: Request
+parentId: fld_4ce7ceb62776450d8f8745c05da6823d
+modified: 1679387349383
+created: 1678705794671
+url: http://10.234.206.84:6443/uat/redbox/services/card/pan/validatelastcarddigits
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >
+    {
+      "tran_date": "2023-02-14",
+      "tran_amt": 20000,
+      "subscriber_mandate_code": "subscriber mandate code for the given direct debit mandate",
+      "tran_particular": "as provided by NIBSS",
+      "paid_by": "Name of Direct Debit Mandate Customer",
+      "tran_rmks": "as provided by NIBSS",
+      "sent_date": "2023-02-14T19:59:09.025Z"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c0715b6c0d2549519d3f27bdc004a201
+  - id: pair_5817bdabc22947199d215a9ce5202d00
+    name: Authorization
+    value: YBijkdldodopdpdnm
+    description: ""
+    disabled: true
+authentication: {}
+metaSortKey: -1678705794671
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

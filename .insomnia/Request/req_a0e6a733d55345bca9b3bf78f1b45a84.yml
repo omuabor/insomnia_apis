@@ -1,0 +1,48 @@
+_id: req_a0e6a733d55345bca9b3bf78f1b45a84
+type: Request
+parentId: wrk_1805ee06f7744d4e808802a1ff11aeb8
+modified: 1680018153100
+created: 1680018137440
+url: https://developer.stanbicibtc.com:8443/uat/redbox/services/nipv2/outbound
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: >-
+    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:soap="http://soap.nip.outbound.redbox.stanbic.com/">
+       <soapenv:Header/>
+       <soapenv:Body>
+          <soap:NIPOperation>
+             <TransactionReference>195844001392201</TransactionReference>
+             <OperationType>2</OperationType>
+             <RequesterAccountId>0037285509</RequesterAccountId>
+             <RequesterAccountName>Test agent</RequesterAccountName>
+             <UseRequesterAccountInfo>2</UseRequesterAccountInfo>
+             <SourceAccountNumber>0025806095</SourceAccountNumber>
+             <SourceAccountName>Test agent</SourceAccountName>
+             <SourceBankCode>999221</SourceBankCode>
+             <DestinationAccountNumber>2174842994</DestinationAccountNumber>
+             <DestinationAccountName>ADASEN RATSONEL OSAMUDIAME</DestinationAccountName>
+             <DestinationBankCode>999057</DestinationBankCode>
+             <ChannelCode>7</ChannelCode>
+             <Narration>Agent trf frm:Test agent</Narration>
+             <DebitNarration>Agent NIP trf:2174842994 ADASEN RATSONEL OSAMUDIAME</DebitNarration>
+             <Amount>100.0</Amount>
+          </soap:NIPOperation>
+       </soapenv:Body>
+    </soapenv:Envelope>
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/xml
+authentication: {}
+metaSortKey: -1680018137440
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

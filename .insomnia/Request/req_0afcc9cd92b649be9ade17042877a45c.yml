@@ -1,0 +1,40 @@
+_id: req_0afcc9cd92b649be9ade17042877a45c
+type: Request
+parentId: wrk_1805ee06f7744d4e808802a1ff11aeb8
+modified: 1696328746020
+created: 1695123435009
+url: https://localhost:7340/uat/redbox/services/api/v1/finacle/xfer/tran/add/transfer
+name: xfer prod
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"channelIdCode":"RBX","isTransactionCustomerInduced":"1","transactionInstrumentAlphaCode":"","transactionInstrumentType":"","transactionType":"T","transactionDateTime":"2023-09-19T10:53:36.898","creditTransactionDetails":[{"accountNumber":"0016325482","transactionAmount":"0","transactionNarration":"IBR
+    GTP/10/0013250484","transactionRemark":null,"transactionValueDate":"2023-09-19T10:53:36.898"}],"debitTransactionDetails":[{"accountNumber":"0003856353","transactionAmount":"0","transactionNarration":"IBR
+    GTP/10/0013250484","transactionRemark":null,"transactionValueDate":"2023-09-19T10:53:36.898"}],"transactionCurrency":"NGN","transactionInstrumentDate":"2023-09-19T10:53:36.890","transactionInstrumentId":null,"transactionNarration2":"Prepaid_Card/2023-09-19T10:53:36.890-ope/001325","transactionReferenceId":"65096e27c1688899292c0e"}'
+parameters: []
+headers:
+  - id: pair_93ad36780ff840e4a8baa44addc7f5b1
+    name: module_id
+    value: QTI0Mjc1MTow
+    description: ""
+  - id: pair_65e92c0818c14eaeb38ecdc5e0be1a82
+    name: Authorization
+    value: basic cmJ4RGV2ZWxvcGVyMjpyYjVkM3YzbDBwM3I=
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_1f0fa65078f8488cb10a2f686b18f23f
+  - id: pair_6f82e97c36424cf7b1ec00ddbd38969a
+    name: X-Forwarded-For
+    value: 10.234.175.138
+    description: ""
+authentication: {}
+metaSortKey: -1677144751316.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_87d62a9ed6aa481897613085a4999531
+type: Request
+parentId: fld_65959887e4ac471289318acde09893c7
+modified: 1695031359419
+created: 1695030359282
+url: https://www.gtpsecurecard.com/GTPServices/PartnerAPIWebService.svc
+name: GetCustomerDataVendor
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: <ns4:Envelope xmlns:ns4="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ns3="http://gtplimited.com/"><ns4:Header><ns3:RequestHeader><ns3:SecurityToken>STNGMCvjhbnjksdnvfkwjhbvfdjnsdkjvW3JUfrg</ns3:SecurityToken><ns3:RequestID>202</ns3:RequestID></ns3:RequestHeader></ns4:Header><ns4:Body><ns3:BaseRequest><ns3:RequestData
+    xmlns="http://gtplimited.com/"
+    xsi:type="CustomerDataRequest"><CustomerID>1234567</CustomerID></ns3:RequestData></ns3:BaseRequest></ns4:Body></ns4:Envelope>
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/xml
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695030359282
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

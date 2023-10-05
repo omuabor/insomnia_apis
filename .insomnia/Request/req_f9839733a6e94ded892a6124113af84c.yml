@@ -1,0 +1,30 @@
+_id: req_f9839733a6e94ded892a6124113af84c
+type: Request
+parentId: fld_65959887e4ac471289318acde09893c7
+modified: 1695143324651
+created: 1694696138413
+url: http://localhost:8469/api/v1/stanbic/redbox/prepaidcard/loadaccount
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"transactionId":"6509819cc168b744e2a52ca8","billerId":"Prepaid_Card","purposeCode":"payment","principalAmount":"10","principalNarration":"IBR
+    GTP/10/0013250484","payerId":"0013250484","creditTransactionDetails":[{"accountToCredit":"0016325482","transactionAmount":"10","transactionNarration":"IBR
+    GTP/10/0013250484"}],"debitTransactionDetails":[{"accountToDebit":"0003856353","transactionAmount":"10","transactionNarration":"IBR
+    GTP/10/0013250484"}],"fullName":"ope","phoneNumber":"2348057775577","email":null,"branchCode":"000078","currencyCode":"NGN","productName":"Prepaid_Card","authCode":null,"channelId":null,"channelName":null,"baseCBA":null,"channelType":null,"otherRequestDetails":{"fromCustomerId":"1616708","toCustomerId":"0013250484","cardType":0,"transferAmount":10.0,"transferCurrencyCode":"NGN","transferType":2,"transferToken":"6653","fromCustomerNarration":"LoadAccount/1616708","toCustomerNarration":"LoadAccount/0013250484","requestReference":"LoadAccount/0013250484"}}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694696138413
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

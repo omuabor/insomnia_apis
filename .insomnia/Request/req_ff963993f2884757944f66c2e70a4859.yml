@@ -1,0 +1,27 @@
+_id: req_ff963993f2884757944f66c2e70a4859
+type: Request
+parentId: fld_aba981ad8e2e414298d22389a0f47788
+modified: 1694772352406
+created: 1694767207818
+url: https://revpay.ebs-rcm.com/BankPay/interface/billtype
+name: BillTypeDirect
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"state":"LASG","hash":"1c3d3b64a04afb6e39821d50dba94d4026da1fd0e252781ffcce27fc8368ccf51f94be44e0f75f4c8e91d8723826fe675e0031f8c6fb7d9233e1c7f35fa6f8ff","clientid":"869017180657039"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694767207818
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

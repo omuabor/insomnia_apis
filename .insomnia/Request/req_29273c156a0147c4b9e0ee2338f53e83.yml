@@ -1,0 +1,34 @@
+_id: req_29273c156a0147c4b9e0ee2338f53e83
+type: Request
+parentId: wrk_1805ee06f7744d4e808802a1ff11aeb8
+modified: 1670487032888
+created: 1670486209912
+url: https://pngcorredbox.ng.sbicdirectory.com:8993/png/sb/redbox/services/sochitel/enquiries/operatorProducts
+name: New Request
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - id: pair_ed3d2f4d3c844850a9bd3182f4ef52d2
+    name: Authorization
+    value: basic cmJ4RGV2ZWxvcGVyMjpyYjVkM3YzbDBwM3I=
+    description: ""
+  - id: pair_14dd4ed8935744c3857e26fafacd22f3
+    name: module_id
+    value: QTIzMzU5Mzow=
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_1ef239f59cf045a6a60018420673ee7b
+authentication: {}
+metaSortKey: -1670486209912
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,39 @@
+_id: req_7f77f3a978d64910847acace2dc0de2d
+type: Request
+parentId: fld_c2b3fcdf802248eba98b6d613b6f2615
+modified: 1694449049554
+created: 1694446719795
+url: https://uatlb.stanbicibtc.com/integration-channel/authentication-service/api/v1/user/registration
+name: User Token Registration For Tosin
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "channelId": "2",
+        "acctNum": "0021913498",
+        "userName": "OLUWATOBIBAKARE",
+        "userAccessLevel": "5"
+    }
+parameters: []
+headers:
+  - name: serviceToken
+    value: 4251FDFABB5BB2ECE76081F25DE3975079E3E6F16B9DB948C794A019EF49D997B09F3082B4E43B08D58DA2E11BC653C756DCFD3BA39DF910C8C9
+    id: pair_829c5478cd8446a08431862bd3d44af8
+  - name: requestSourceIp
+    value: 192.108.120.121
+    id: pair_25c5f461a72d4cf8bcbcc3585a6b991b
+  - id: pair_38a11efa5ae04063bff4e6de12b660ab
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1691768996294.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

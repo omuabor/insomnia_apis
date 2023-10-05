@@ -1,0 +1,41 @@
+_id: req_717b4109c6e6445e95b0e6207a88b495
+type: Request
+parentId: fld_4ce7ceb62776450d8f8745c05da6823d
+modified: 1678872341508
+created: 1678784754752
+url: ""
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: <soapenv:Envelope
+    xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:soap="http://soap.collection.redbox.stanbic.com/">   <soapenv:Header/>   <soapenv:Body><soap:paydetails
+    xmlns:soap="http://soap.collection.redbox.stanbic.com/">     <PurposeCode>getCustomer</PurposeCode>     <InstitutionID>DANGOTE</InstitutionID>     <OtherDetails><![CDATA[<customerDetails>     <cust_num>0001005381</cust_num>     <comp_code>1000</comp_code>     <cc_area>1000</cc_area>     <sales_org>1000</sales_org>     </customerDetails>]]></OtherDetails></soap:paydetails>   </soapenv:Body></soapenv:Envelope>
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/xml
+    id: pair_c016f6b94a1044d2a9b1740c20e76255
+  - id: pair_e2c4e084f46d489685ebb7910322d973
+    name: module_id
+    value: QTI0NzI1NTow
+    description: ""
+  - id: pair_91f6c3f4d8764ee0912d11b9ecffe66b
+    name: Authorization
+    value: basic  YXBwRGV2ZWxvcGVyOkBwcERlVkA0Iw==
+    description: ""
+  - id: pair_8aed835bb1af4319abd699235d4d95ce
+    name: SOAPAction
+    value: confirm
+    description: ""
+authentication: {}
+metaSortKey: -1678784754753
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

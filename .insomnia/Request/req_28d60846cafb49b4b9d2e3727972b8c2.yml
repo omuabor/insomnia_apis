@@ -1,0 +1,51 @@
+_id: req_28d60846cafb49b4b9d2e3727972b8c2
+type: Request
+parentId: fld_4ce7ceb62776450d8f8745c05da6823d
+modified: 1682005343671
+created: 1681464731633
+url: https://developer.stanbicibtc.com:8443/uat/sb/redbox/services/airtime-aggregation/api/v1/give-value
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "sourceTransactionRef" : "20221215829900428009",
+      "sourceEntityCode" : "304",
+      "sourceAccountNumber" : "0017694057",
+      "recipientMobileNumber" : "07065953443",
+      "recipientNetworkOperatorCode" : "MTN",
+      "productCode" : "0",
+      "airtimeAmount" : 100,
+      "isDataOrAirtime" : "AIRTIME",
+      "transactionTime" : "2022-09-12T16:02:25.456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1376387f3cea4822963bd2abcac13ecb
+  - id: pair_b1be5f6309d743dca465a300dbc37cd8
+    name: module_id
+    value: RkxVVFRFUl9XQVZF
+    description: ""
+  - id: pair_2ff95e4ce52442e8a92ba86883d16577
+    name: Authorization
+    value: basic cmJ4RGV2ZWxvcGVyMjpyYbaahiv
+    description: ""
+    disabled: false
+authentication:
+  type: apikey
+  disabled: true
+  key: ""
+  value: ""
+  addTo: header
+metaSortKey: -1681464731633
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_a3b9dfd625ba4d6e9d4460b41de791da
+type: Request
+parentId: wrk_1805ee06f7744d4e808802a1ff11aeb8
+modified: 1695726298965
+created: 1695726218918
+url: http://10.234.206.67:8209/api/v1/stanbic/redbox/revpay/agencyCode
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {"purposeCode":"GetAgencyCode",
+    "payerId":"C-58570",
+    "billerId":"REVPAY",
+    "otherRequestDetails":{"state":"XXSG","clientid":"669243721639039"}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695726218918
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

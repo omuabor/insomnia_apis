@@ -1,0 +1,23 @@
+_id: req_fdd75bd4b95e4570aefe9b0d4aac87d5
+type: Request
+parentId: fld_aba981ad8e2e414298d22389a0f47788
+modified: 1695898825199
+created: 1695898797573
+url: ""
+name: DryPosting
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695898797573
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

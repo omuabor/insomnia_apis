@@ -1,0 +1,31 @@
+_id: req_4a82f80c78d74c5b98dbe41191ca6707
+type: Request
+parentId: fld_aba981ad8e2e414298d22389a0f47788
+modified: 1694771003033
+created: 1694524832327
+url: http://localhost:8209/png/redbox/services/revpay/billtype
+name: BillType
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {"purposeCode":"GetBillType",
+    "payerId":"C-58570",
+    "billerId":"REVPAY",
+    "otherRequestDetails":{"state":"XXSG","clientid":"869017180657039"}}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1694524832327
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

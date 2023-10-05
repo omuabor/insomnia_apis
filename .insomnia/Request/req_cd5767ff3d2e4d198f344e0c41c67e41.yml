@@ -1,0 +1,27 @@
+_id: req_cd5767ff3d2e4d198f344e0c41c67e41
+type: Request
+parentId: wrk_1805ee06f7744d4e808802a1ff11aeb8
+modified: 1694442951651
+created: 1693213419232
+url: ""
+name: PAPSS
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"sourceAmount":94668.00,"sourceCurrencyCode":"NGN","sourceToBaseCurrencyRate":400.0000,"feeInSourceCurrency":1800.00,"destinationAmount":7100,"destinationCurrencyCode":"GNF","destinationToBaseCurrencyRate":30.0000,"rate":0.074998943,"baseCurrency":"USD","feeInBaseCurrency":4.50,"description":"94,668.00NGN
+    exchanges for
+    7,100.00GNF","time":"2023-08-28T09:02:47Z","localInstrument":"ET"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1693213419233
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
